@@ -1,4 +1,4 @@
 *.o
 *.a
 *.brew
-DS_Store
+.DS_Store
