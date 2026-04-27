@@ -1,33 +1,33 @@
-# 42 School - Common Core
+# 42 school - common core
 
-This repository contains my implementation of the projects in the **42 School Common Core** curriculum. The projects focus on rigor, deep understanding of C programming, memory management and Unix systems logic
+this repository contains my implementation of the projects in the **42 school common core** curriculum. the projects focus on rigor, deep understanding of c programming, memory management and unix systems logic
 
-# 🛠️ Project Overview
+# 🛠️ project overview
 
-|  Project  |  Description  |  Key Concepts  |
+|  project name  |  description  |  key concepts  |
 |-----------|---------------|----------------|
-|  libft    | My own standard C library | Libc, Memory, Strings |
-| ft_printf | Re-implementation of the `printf` | Variadic arguments, Formatting |
-| get_next_line | Reading a line from a file descriptor | Static variables, Buffers |
-| born2beroot | Setting up a secure Debian server | Virtualization, Sudo, SSH |
-| push_swap | Sorting data on a stock with limited moves | Algorithms, Optimization |
-| so_long | A simple 2D game using the MinilibX | Graphics, Event handling |
-| pipex | Handling Unix pipes and redirections | Processes, Execve, Pipes |
-| philosophers | The Dining Philosophers problem | Multithreading, Mutexes |
-| minishell | Building a simple shell | Parsing, Signals, File descriptors |
+|  **libft**    | my own standard c library | libc, memory, strings |
+| **ft_printf**  | re-implementation of the `printf` | variadic arguments and functions, formatting |
+| **get_next_line**  | reading a line from a file descriptor | static variables, buffers |
+| **born2beroot**  | setting up a secure debian server | virtualization, `sudo`, `ssh` |
+| **push_swap**  | sorting data on a stock with limited moves | algorithms, stacks and optimization |
+| **so_long**  | a simple 2d game using the minilibX | graphics, event handling |
+| **pipex**  | handling unix pipes and redirections | processes, `execve`, pipes |
+| **philosophers**  | the dining philosophers problem | synchronization, multithreading and mutexes |
+| **minishell** | building a simple shell | parsing, signals, file descriptors |
 
-# 🚀 Featured Projects
-### Minishell
+# 🚀 featured projects
+### minishell
 
-The most complex project of the core, involving the creation of a mini-bash. It handles:
+the most complex project of the core, involving the creation of a mini-bash. it handles:
 
-- **Interactive Prompt**: Displays a prompt when waiting for a new command
+- **interactive prompt**: displays a prompt when waiting for a new command
 
-- **Command Execution**: Executes system binaries found in the PATH or via absolute/relative paths
+- **command execution**: executes system binaries found in the PATH or via absolute/relative paths
 
-- **Builtins**: Implementation of echo, cd, pwd, export, unset, env, and exit.
+- **builtins**: implementation of `echo`, `cd`, `pwd`, `export`, `unset`, `env`, and `exit`.
 
-- #### Redirections:
+- #### redirections:
 
     * **<** redirects input
 
@@ -37,51 +37,51 @@ The most complex project of the core, involving the creation of a mini-bash. It 
 
     * **\>>** redirects output (append)
 
-- **Pipes**: **|** connects the output of one command to the input of the next.
+- **pipes**: **|** connects the output of one command to the input of the next.
 
-- **Environment Variables**: Handles **$** expansions and **$?** for the last exit status.
+- **environment variables**: handles **$expansions** and **$?** for the last exit status.
 
-- **Signals**: Proper handling of Ctrl-C, Ctrl-D, and Ctrl-\
+- **signals**: proper handling of ctrl-c, ctrl-d, and ctrl-\
 
-### Philosophers
+### philosophers
 
-A project dedicated to the basics of threading a process. It focuses on:
+a project dedicated to the basics of threading a process. it focuses on:
 
-* Solving the "Dining Philosophers" problem.
+* solving the "dining philosophers" problem
 
-* Avoiding deadlocks and race conditions.
+* avoiding deadlocks and race conditions
 
-* Real-time monitoring and synchronization using Mutexes.
-
----
-
-## 📝 Methodology
-Each project follows the 42 Norm, a strict coding standard that promotes readability and limits function length. Most projects are written in C, prioritizing:
-
-1. **Zero Memory Leaks**: All heap-allocated memory is properly freed.
-
-2. **Robustness**: Handling edge cases, invalid inputs, and system call failures.
-
-3. **Efficiency**: Optimized algorithms to meet strict performance benchmarks.
+* real-time monitoring and synchronization using mutexes
 
 ---
 
-## 📂 Installation & Usage
-To explore a specific project, navigate to its directory and use the Makefile:
+## 📝 methodology
+each project follows the 42 norm, a strict coding standard that promotes readability and limits function length. most projects are written in c, prioritizing:
+
+1. **zero memory leaks**: all heap-allocated memory is properly freed
+
+2. **robustness**: handling edge cases, invalid inputs, and system call failures
+
+3. **efficiency**: optimized algorithms to meet strict performance benchmarks
+
+---
+
+## 📂 installation and usage
+to explore a specific project, navigate to its directory and use the makefile:
 
 ```Bash
-git clone https://github.com/YOUR_USERNAME/42_school.git
+git clone https://github.com/your_username/42_school.git
 cd 42_school/project_name
 make
 ```
 
 ---
 
-## 👤 Author
-* `vuino18` (GitHub: [vuino18](https://github.com/vuino18/))
+## 👤 author
+* `vuino18` (gitHub: [vuino18](https://github.com/vuino18/))
 
-* 42 School Login: `elino`
+* 42 school login: `elino`
 
 ---
 
-*This repository is for educational purposes only. If you are a 42 student, remember to follow the principles of peer-to-peer learning and academic integrity*
+*this repository is for educational purposes only. if you are a 42 student, always remember to follow the principles of peer-to-peer learning and academic integrity*
